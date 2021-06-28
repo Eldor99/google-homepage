@@ -1,0 +1,51 @@
+svg, img{
+    width: 30px;
+    color: blue;
+    padding: .5em;
+
+}
+
+svg:hover{
+    /* margin: 1em; */
+    padding: .5em;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+}
+
+img:hover{
+    /* margin: 1em; */
+    padding: .5em;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    cursor: pointer;
+}
+
+img{
+    border-radius: 50%;
+}
+
+/* Navbar */
+nav{
+    display: flex;
+    padding: 0 1em ;
+    justify-content: flex-end;
+}
+
+ul{
+    display: flex;
+}
+
+li{
+    margin: 0 1em;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: black;
+}
+
+a:hover{
+    text-decoration: underline;
+}
