@@ -1,18 +1,27 @@
-svg, img{
+*{
+    /* margin: 0; */
+    /* padding: 0; */
+}
+
+body{
+    /* min-width: 1000px; */
+}
+
+.button-icon, .profile-img{
     width: 30px;
     color: blue;
     padding: .5em;
 
 }
 
-svg:hover{
+.button-icon:hover{
     /* margin: 1em; */
     padding: .5em;
     border-radius: 50%;
     background-color: #f4f4f4;
 }
 
-img:hover{
+.profile-img:hover{
     /* margin: 1em; */
     padding: .5em;
     border-radius: 50%;
@@ -20,14 +29,14 @@ img:hover{
     cursor: pointer;
 }
 
-img{
+.profile-img{
     border-radius: 50%;
 }
 
 /* Navbar */
 nav{
     display: flex;
-    padding: 0 1em ;
+    padding: 6px ;
     justify-content: flex-end;
 }
 
@@ -48,4 +57,121 @@ a{
 
 a:hover{
     text-decoration: underline;
+}
+
+/* Center */
+section{
+    text-align: center;
+    margin-top: 5em;
+}
+
+.search-bar{
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    margin-top: 1em;
+    /* width: 600px; */
+    border: 1px solid #d3d3d3;
+    width: 500px;
+    height: 5px;
+    border-radius: 35px;
+
+}
+
+.search-bar:hover{
+    /* box-shadow: 2px 2px 2px 2px #d3d3d3; */
+
+    -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc;
+}
+
+input{
+    /* height: 35px; */
+    width: 420px;
+    font-size: 20px;
+    height: 30px;
+    /* margin-bottom: 3em; */
+    margin: 0;
+    position: relative;
+    bottom: 1.2em;
+    right: 1em;
+    border: none;
+}
+
+.search-icon{
+    width: 30px;
+    position: relative;
+    right: 1em;
+    bottom: 10px;
+    margin-bottom: 5px;
+}
+
+.mic{
+    position: relative;
+    bottom: 1.25em;
+    left: 1em;
+}
+
+textarea:focus, input:focus{
+    outline: none;
+
+    /* -moz-box-shadow: 0 0 3px #ccc;
+    -webkit-box-shadow: 0 0 3px #ccc;
+    box-shadow: 0 0 3px #ccc; */
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    /* padding: 1px 6px; */
+    /* background-color: #d3d3d3; */
+    /* margin: 1em 1em; */
+    border-radius: 10px;
+}
+
+button{
+    padding: 6px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding: 8px 18px;
+    margin: 2em 1em;
+}
+
+.lang{
+    display: flex;
+    justify-content: center;
+}
+
+.lang a{
+    align-self: center;
+    color: blue;
+    margin: 0 8px;
+    font-size: 16px;
+}
+
+.lang a:hover{
+    text-decoration: underline;
+}
+
+/* FOoter */
+footer{
+    background-color: #d3d3d3;
+    color: rgb(110, 110, 110);
+
+        position: absolute;
+    left: 0;
+   bottom: 0;
+   width: 100%;
+    padding: 12px;
+   
+}
+
+hr{
+    padding: 0;
+    margin:0;
 }
